@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 
 export const FriendListItem = ({ avatar, name, isOnline }) => (
-  <li class="item">
-    <span class="status">{isOnline}</span>
+  <li class="list-item">
+    <div class={isOnline == true ? "online" : "offline"}></div>
     <img class="avatar" src={avatar} alt="User avatar" width="48" />
-    <p class="name">{name}</p>
+    <p class="friend-name">{name}</p>
   </li>
 );
 

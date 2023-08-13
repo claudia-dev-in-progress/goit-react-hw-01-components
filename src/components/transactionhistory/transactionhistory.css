@@ -1,0 +1,12 @@
+.transaction-history {
+  border: 1px solid black;
+  margin-top: 100px;
+}
+th {
+  background-color: lightskyblue;
+  width: 250px;
+  height: 40px;
+}
+td {
+  border: 1px solid black;
+}

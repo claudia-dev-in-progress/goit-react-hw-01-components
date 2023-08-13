@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "./profile.css";
 
 export const Profile = ({ username, tag, location, avatar, stats }) => (
   <div class="profile">
@@ -9,16 +10,16 @@ export const Profile = ({ username, tag, location, avatar, stats }) => (
       <p class="location">{location}</p>
     </div>
 
-    <ul class="stats">
-      <li>
+    <ul class="profile-stats">
+      <li class="profile-statistics">
         <span class="label">Followers</span>
         <span class="quantity">{stats.followers}</span>
       </li>
-      <li>
+      <li class="profile-statistics">
         <span class="label">Views</span>
         <span class="quantity">{stats.views}</span>
       </li>
-      <li>
+      <li class="profile-statistics">
         <span class="label">Likes</span>
         <span class="quantity">{stats.likes}</span>
       </li>

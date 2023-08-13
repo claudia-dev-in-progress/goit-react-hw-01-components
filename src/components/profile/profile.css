@@ -1,0 +1,34 @@
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+}
+.name {
+  font-weight: bold;
+}
+
+.tag,
+.location {
+  color: grey;
+}
+.profile {
+  margin-left: 100px;
+}
+.quantity,
+.label {
+  display: flex;
+}
+
+.quantity {
+  font-weight: bold;
+}
+
+.profile-statistics {
+  list-style: none;
+  background-color: #dcdcdc;
+  width: 80px;
+}
+.profile-stats {
+  display: flex;
+  gap: 10px;
+  margin-left: -100px;
+}

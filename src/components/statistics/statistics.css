@@ -1,0 +1,12 @@
+.stat-list {
+  display: flex;
+  gap: 10px;
+}
+.title {
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.item {
+  background-color: pink;
+  width: 60px;
+}
